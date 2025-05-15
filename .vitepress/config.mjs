@@ -12,15 +12,17 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "示例", link: "/about-vue3" },
     ],
-
+    outline: {
+      label: "本页内容",
+    },
     sidebar: [
-      // {
-      //   text: "html5",
-      //   items: [
-      //     // { text: "Markdown Examples", link: "/markdown-examples" },
-      //     // { text: "Runtime API Examples", link: "/api-examples" },
-      //   ],
-      // },
+      {
+        text: "html5",
+        items: [
+          { text: "h5中的rem", link: "/src/article/h5/rem.md" },
+          // { text: "Runtime API Examples", link: "/api-examples" },
+        ],
+      },
       // {
       //   text: "css3",
       //   items: [
