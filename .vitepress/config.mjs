@@ -19,7 +19,7 @@ export default defineConfig({
       {
         text: "html5",
         items: [
-          { text: "h5中的rem", link: "/src/article/h5/rem.md" },
+          { text: "h5中的rem", link: "/src/articles/h5/rem.md" },
           // { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
