@@ -15,11 +15,18 @@ export default defineConfig({
     outline: {
       label: '本页内容'
     },
+    lastUpdated: {
+      text: '修改于',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
     sidebar: [
       {
         text: 'html5',
         items: [
-          { text: 'h5中的rem', link: '/src/articles/h5/rem.md' }
+          { text: 'h5中的rem', link: '/src/articles/h5/rem' }
           // { text: "Runtime API Examples", link: "/api-examples" },
         ]
       },
