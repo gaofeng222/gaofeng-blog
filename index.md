@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Web开发技术个人笔记"
+  text: "开发心得与技术分享"
+  tagline: "记录前端开发过程中的一些心得与技术，包括但不限于前端框架、组件库、工具库等。"
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +15,12 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+  - title: html5与css3
+    details: 基础知识与面试题汇总
 
+  - title: 前端三大框架vue3、react18、angular
+    details: 三个框架的基础知识与使用心得
+
+  - title: 服务端java开发与springboot全家桶
+    details: 后端开发与微服务架构(纯属个人兴趣爱好，不喜勿喷)
+---
