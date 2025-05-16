@@ -56,7 +56,10 @@ export default defineConfig({
         text: "前端框架之React",
 
         items: [
-          // { text: "Markdown Examples", link: "/markdown-examples" },
+          {
+            text: "craco.config配置文件的记录",
+            link: "/src/articles/react/craco-config",
+          },
           // { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
