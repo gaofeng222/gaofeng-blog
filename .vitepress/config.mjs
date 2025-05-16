@@ -26,7 +26,7 @@ export default defineConfig({
       {
         text: 'css3',
         items: [
-          { text: 'css3中的GPU加速', link: '/markdown-examples' }
+          { text: 'css3中的GPU加速', link: '/src/articles/css3/gpu.md' }
           // { text: "Runtime API Examples", link: "/api-examples" },
         ]
       },
