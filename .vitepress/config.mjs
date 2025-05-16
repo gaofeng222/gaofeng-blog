@@ -71,6 +71,28 @@ export default defineConfig({
           // { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
+      {
+        text: "后端Java",
+
+        items: [
+          // { text: "Markdown Examples", link: "/markdown-examples" },
+          // { text: "Runtime API Examples", link: "/api-examples" },
+        ],
+      },
+      {
+        text: "后端框架springboot",
+        items: [
+          // { text: "Markdown Examples", link: "/markdown-examples" },
+          // { text: "Runtime API Examples", link: "/api-examples" },
+        ],
+      },
+      {
+        text: "数据库mysql",
+        items: [
+          // { text: "Markdown Examples", link: "/markdown-examples" },
+          // { text: "Runtime API Examples", link: "/api-examples" },
+        ],
+      },
     ],
     docFooter: {
       prev: "上一页",
