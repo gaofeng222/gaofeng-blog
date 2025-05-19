@@ -60,7 +60,10 @@ export default defineConfig({
             text: "craco.config配置文件的记录",
             link: "/src/articles/react/craco-config",
           },
-          // { text: "Runtime API Examples", link: "/api-examples" },
+          {
+            text: "react+ts中配置默认片段",
+            link: "/src/articles/react/snipper",
+          },
         ],
       },
       {
