@@ -1,3 +1,12 @@
+---
+ title: H5中使用rem适配屏幕尺寸
+ date: 2023-05-17
+ tags: [css, html]
+ categories: [前端]
+---
+
+# H5 中使用 rem 适配屏幕尺寸
+
 ::: info rem 的计算公式
 h5 的项目中，我们要实现盒子模型的自动适配，我们可以通过 rem 来实现。主要思路就是通过 js 来动态的设置 html 的字体大小，然后通过 rem 来控制其他元素的尺寸。
 
@@ -28,24 +37,24 @@ html {
 再通过 js 来动态的设置 html 的字体大小，代码如下：
 
 ```js
-(function () {
-  console.log(123);
+;(function () {
+  console.log(123)
   const computed = () => {
-    const html = document.documentElement;
-    let deviceWidth = html.clientWidth || document.body.clientWidth;
+    const html = document.documentElement
+    let deviceWidth = html.clientWidth || document.body.clientWidth
     if (deviceWidth > 750) {
-      deviceWidth = 750;
+      deviceWidth = 750
     } else if (deviceWidth < 320) {
-      deviceWidth = 320;
+      deviceWidth = 320
     }
-    const designWidth = 750;
-    let ratio = (deviceWidth * 100) / designWidth;
-    html.style.fontSize = ratio + "px";
-  };
-  computed();
+    const designWidth = 750
+    let ratio = (deviceWidth * 100) / designWidth
+    html.style.fontSize = ratio + 'px'
+  }
+  computed()
 
-  window.addEventListener("resize", computed);
-})();
+  window.addEventListener('resize', computed)
+})()
 ```
 
 <script setup>

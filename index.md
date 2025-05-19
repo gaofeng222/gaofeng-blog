@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "Web开发技术个人笔记"
-  text: "开发心得与技术分享"
-  tagline: "记录前端开发过程中的一些心得与技术，包括但不限于前端框架、组件库、工具库等。"
+  name: 'Web开发技术个人笔记'
+  text: '开发心得与技术分享'
+  tagline: '记录前端开发过程中的一些心得与技术，包括但不限于前端框架、组件库、工具库等。'
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读
+      link: /src/articles/h5/rem
     - theme: alt
       text: API Examples
       link: /api-examples
